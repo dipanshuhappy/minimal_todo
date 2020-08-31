@@ -1,9 +1,6 @@
 :root{
    margin: 0;
 }
-*{
-   touch-action:manipulation;
-}
 body{
     margin: auto;
     padding: 0;
@@ -53,6 +50,7 @@ ol li{
     width: 90%;
     height: 50%;
     text-align: center;
+    touch-action:manipulation
     font-size: xx-large;
     text-decoration: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
