@@ -5,7 +5,7 @@ body{
     margin: auto;
     padding: 0;
    
-    --textAreaHeight:20px;
+    --textAreaHeight:10px;
     background-color: #2f2f2f;
 }
 div.create{
