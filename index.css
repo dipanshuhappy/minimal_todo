@@ -3,6 +3,7 @@
 }
 *{
    touch-action:manipulation;
+}
 body{
     margin: auto;
     padding: 0;
