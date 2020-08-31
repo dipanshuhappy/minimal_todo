@@ -5,7 +5,7 @@ body{
     margin: auto;
     padding: 0;
    
-    --textAreaHeight:0;
+    --textAreaHeight:10%;
     background-color: #2f2f2f;
 }
 div.create{
@@ -35,7 +35,7 @@ textarea{
     transition-duration: 2s;
 }
 textarea:hover{
-    --textAreaHeight:10vh;   
+    --textAreaHeight:15vh;   
    box-shadow: 10px 20px 30px rgb(141, 140, 140);
    border-radius: 0;
    
