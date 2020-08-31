@@ -1,6 +1,8 @@
 :root{
    margin: 0;
 }
+*{
+   touch-action:manipulation;
 body{
     margin: auto;
     padding: 0;
