@@ -1,10 +1,12 @@
 :root{
    margin: 0;
 }
+*{
+    touch-action: manipulation;
+}
 body{
     margin: auto;
     padding: 0;
-   
     --textAreaHeight:0;
     background-color: #2f2f2f;
 }
