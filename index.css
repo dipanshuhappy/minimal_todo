@@ -10,6 +10,11 @@ body{
     --textAreaHeight:0;
     background-color: #2f2f2f;
 }
+div.info-text>p{
+    text-align: center;
+    margin-top: 50vh;
+    color: bisque;
+}
 div.create{
   
     display: block;
@@ -21,7 +26,7 @@ div.create{
     margin-bottom: 30px;
 }
 textarea{  
-    width:100%;
+    width:99vw;
     height:var(--textAreaHeight);
     resize: none;
     border-radius: 30px;
@@ -35,6 +40,7 @@ textarea{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition-property: all;
     transition-duration: 2s;
+    margin-top: 5%;
 }
 textarea:hover{
     --textAreaHeight:10vh;   
@@ -47,15 +53,20 @@ ol{
     padding: 0;
     margin: 0;
     list-style-position: unset;
+
+}
+ol:first-child{
+    margin-top: 5%;
 }
 ol li{
-    width: 90%;
+    width: fit-content;
+    min-width: 90%;
     height: 50%;
     text-align: center;
     font-size: xx-large;
     text-decoration: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    background-color: beige;
     margin-bottom: 5%;
     margin-left: 40px;
     margin-right: 40px;
