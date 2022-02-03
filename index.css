@@ -43,7 +43,7 @@ textarea{
     margin-top: 5%;
 }
 textarea:hover{
-    --textAreaHeight:10vh;   
+    --textAreaHeight:15vh;   
    box-shadow: 10px 20px 30px rgb(141, 140, 140);
    border-radius: 0;
    
